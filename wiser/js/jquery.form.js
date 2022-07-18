@@ -1170,5 +1170,4 @@ function log() {
         window.opera.postError(msg);
     }
 }
-
 })(jQuery);
