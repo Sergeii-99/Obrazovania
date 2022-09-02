@@ -1,20 +1,9 @@
-/**
- * ScrollIt
- * ScrollIt.js(scroll•it•dot•js) makes it easy to make long, vertically scrolling pages.
- *
- * Latest version: https://github.com/cmpolis/scrollIt.js
- *
- * License <https://github.com/cmpolis/scrollIt.js/blob/master/LICENSE.txt>
- */
 (function($) {
     'use strict';
 
     var pluginName = 'ScrollIt',
         pluginVersion = '1.0.3';
 
-    /*
-     * OPTIONS
-     */
     var defaults = {
         upKey: 38,
         downKey: 40,
@@ -27,22 +16,10 @@
 
     $.scrollIt = function(options) {
 
-        /*
-         * DECLARATIONS
-         */
         var settings = $.extend(defaults, options),
             active = 0,
             lastIndex = $('[data-scroll-index]:last').attr('data-scroll-index');
 
-        /*
-         * METHODS
-         */
-
-        /**
-         * navigate
-         *
-         * sets up navigation animation
-         */
         var navigate = function(ndx) {
             if(ndx < 0 || ndx > lastIndex) return;
 
