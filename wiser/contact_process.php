@@ -1,5 +1,4 @@
 <?php
-
     $to = "irs-romny@ukr.net";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
@@ -33,5 +32,4 @@
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
-
 ?>
