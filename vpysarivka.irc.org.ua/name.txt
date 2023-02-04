@@ -1,0 +1,8 @@
+ <div class="control_button">
+                                        <a href="https://alt.vpysarivka.irc.org.ua/?view=text-small" class="text-small" rel="nofollow">A</a>
+                                        <a href="https://alt.vpysarivka.irc.org.ua/?view=text-medium" class="text-medium" rel="nofollow">A</a>
+                                        <a href="https://alt.vpysarivka.irc.org.ua/?view=text-large" class="text-large" rel="nofollow">A</a>
+                                        <a href="https://alt.vpysarivka.irc.org.ua/?view=text-color-normal" class="text-color-normal" rel="nofollow">K</a>
+                                        <a href="https://alt.vpysarivka.irc.org.ua/?view=text-color-inverse" class="text-color-inverse" rel="nofollow">K</a>
+                                        <a href="https://alt.vpysarivka.irc.org.ua/?view=text-color-colored" class="text-color-colored" rel="nofollow">K</a>
+                                    </div>
